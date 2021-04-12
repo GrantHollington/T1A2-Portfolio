@@ -11,9 +11,13 @@ a {
     padding: 8px;
 }
 
+p{                                 
+    font-family: 'Roboto Mono', monospace;
+}
+
 div{
     width: 300px;
-    border: 15px solid green;
+    /* border: 15px solid green; */
     padding: 50px;
     margin: 20px;
 }
@@ -43,10 +47,30 @@ ul {
     background-color: #050526;
 }
 
-.container {
+.container{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
+.title{
+    text-align: center;
+    padding: 10px;
+}
+
+#profile img{
+    width: 200%;
+    margin: 0-25%;
+    color: #e1ebe4;
+}
+
+#profile p{
+    margin: 5px;
+    color: #414542;
+    font-size: 20px;
+    line-height: 1.75em;
+    text-align: justify;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -67,6 +91,9 @@ ul {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    #profile p{font-size: 1.7em;}
+    #profile img{width: 60%;margin: 0-20%;}
+    .title{font-size: 2.5em;}
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */

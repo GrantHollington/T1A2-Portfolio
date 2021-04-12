@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    float: right;
+}
+
+header {
+    background-color: #e1e1eb;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}

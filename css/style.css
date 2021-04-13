@@ -1,3 +1,6 @@
+/* imported font into css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Default styling */
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +15,8 @@ a {
     padding: 8px;
 }
 
-p{                                 
-    font-family: 'Roboto Mono', monospace;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 div{
@@ -46,15 +49,14 @@ ul {
     
 }
  
-.active{
+.active {
     background-color: #050526;
 }
 
-.container{
+.row {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -87,11 +89,13 @@ ul {
 #profile p{
     margin: 5px;
     color: #414542;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 100;
-    line-height: 1.75em;
+    line-height: 1.75;
     text-align: center;
 }
+
+/* responsive media quieries */
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -99,6 +103,7 @@ ul {
   }
   
   @media only screen and (min-width: 600px) {
+/* larger than 601px - 768  px */
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -113,10 +118,10 @@ ul {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     #profile p{font-size: 1.7em;}
-    #profile img{width: 60%;margin: 0-20%;}
-    .title{font-size: 2.5em;}
+    #profile img {width: 80%;margin: 0-20%;}
+    .title {font-size: 3.5em;}
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -130,4 +135,7 @@ ul {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .container {margin: 0px 150px;}
+    #profile img {width 70%; margin: 0-15%;}
+    #profile p {font-size: 1.2em;}
   }

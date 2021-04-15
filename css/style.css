@@ -15,6 +15,7 @@ a {
 }
 
 body {
+    background-image: url(/img/Beach-with-Wave-736x414.jpeg);
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
@@ -33,6 +34,7 @@ header {
     background-color: #e1e1eb;
     text-align: center;
     padding: 10px;
+    opacity: 50%;
 }
 
 li {
@@ -42,6 +44,7 @@ li {
 li a:hover {
     background-color: #30d935;
 }
+
 
 p {
     width: 100%;
@@ -60,6 +63,10 @@ ul {
     background-color: #050526;
 }
 
+.bg-image {
+    /* background-image: url(/img/Beach-with-Wave-736x414.jpeg); */
+}
+
 .row {
     width: 100%;
     display: flex;
@@ -68,14 +75,7 @@ ul {
 }
 
 .footer{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    float: left;
-    list-style-type: none;
-    text-align: justify;
-    width: 300px;
-    padding: 8px; */
+/* created fixed footer and made menu inline */
     position: fixed;    
     left: 0;
     bottom: 0;
@@ -83,11 +83,14 @@ ul {
     background-color: #a3a3a3;
     color: #fff;
     text-align: center;
+    display: inline;
+
 }
 
 .title{
     text-align: center;
     padding: 10px;
+    font-weight: bold;
 }
 
 #profile img{

@@ -16,7 +16,8 @@ a {
 }
 
 body {
-    background-image: url(/img/Beach-with-Wave-736x414.jpeg);
+    background-color: #ede3af;
+    /* background-image: url(/img/Beach-with-Wave-736x414.jpeg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -178,6 +179,6 @@ ul {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container {margin: 0px 150px;}
-    #profile img {width: 50%; margin: 0-15%;}
-    #profile p {font-size: 1.2em;}
+    #profile img {width: 60%; margin: 0 50%;}
+    #profile p {font-size: 1.2em; margin: 10%;}
   }

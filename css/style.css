@@ -63,9 +63,7 @@ img {
     width: 70%;
     height: 100%;
     padding: 10px;
-    margin: 10px;
-    border-radius: 70%;
-
+    margin: 10px; 
 }
 
 li {
@@ -122,9 +120,15 @@ ul {
     font-weight: bold;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 #profile img {
     width: 70%;
     margin: 0 25%;
+    border-radius: 70%;
 }
 
 #profile p{
@@ -135,6 +139,12 @@ ul {
     line-height: 1.75;
     text-align: center;
 }
+
+#aboutme img {
+    width: 50%;
+}
+/* about me page */
+
 
 /* responsive media quieries */
 
@@ -163,6 +173,9 @@ ul {
     #profile p{font-size: 1.7em;margin-top:80px;}
     #profile img {width: 40%;margin-top: 50px;}
     .title {font-size: 3.5em;}
+    #aboutme {
+        width: ;
+    }
   }
   @media only screen and (min-width: 769px) {
     /* For desktop: */
@@ -181,4 +194,6 @@ ul {
     .container {margin: 0px 150px;}
     #profile img {width: 60%; margin: 0 50%;}
     #profile p {font-size: 1.2em; margin: 10%;}
-  }
+    #aboutme img {width: 25%;}
+
+}

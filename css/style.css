@@ -6,7 +6,7 @@
     padding: 0;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -104,8 +104,8 @@ ul {
 }
 
 .footer{
-/* created fixed footer and made menu inline */
-    position: fixed;    
+/* created fixed footer and made inline */
+   
     left: 0;
     bottom: 0;
     width: 100%;
@@ -129,6 +129,20 @@ ul {
     height: auto;
 }
 
+.blog {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+.blog-img {
+    align-self: auto;
+}
 
 #profile img {
     width: 70%;

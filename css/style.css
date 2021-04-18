@@ -120,9 +120,13 @@ ul {
     font-weight: bold;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
+.skills {
+    text-align: center;
+}
+
+.skills img {
+    width: 100px;
+    height: auto;
 }
 
 #profile img {

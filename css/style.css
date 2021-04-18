@@ -6,6 +6,7 @@
     padding: 0;
     text-align: center;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 a {
@@ -24,23 +25,37 @@ body {
     height: 100vh;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    bottom: -100px;
+    background-color: #328ba8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    background-color: #328ba8;
+}
+
+nav li {
+    display: table-cell;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
 div{
     display: flex;
     justify-content: center;
-}
-   
-
-footer{
-    text-align: initial;
-}
-header {
-    background-color: #e1e1eb;
-    text-align: center;
-    padding: 10px;
-    opacity: 50%;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
 }
 
 img {
@@ -57,7 +72,7 @@ li {
 }
 
 li a:hover {
-    background-color: #30d935;
+    background-color:#240705;
 }
  nav li {
      display: inline-block;
@@ -81,10 +96,6 @@ ul {
     background-color: #050526;
 }
 
-.bg-image {
-    /* background-image: url(/img/Beach-with-Wave-736x414.jpeg); */
-}
-
 .row {
     width: 100%;
     display: flex;
@@ -98,8 +109,6 @@ ul {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #a3a3a3;
-    color: #fff;
     text-align: center;
     display: inline;
 
@@ -111,14 +120,8 @@ ul {
     font-weight: bold;
 }
 
-#profile img{
-    display: block;
-    box-sizing: border-box;
-    width: 300%;
-    border: 0;
-    padding: 10px;
-    margin: 0;
-    color: #e1ebe4;
+#profileimg {
+    width: 30%;
 }
 
 #profile p{
@@ -132,15 +135,9 @@ ul {
 
 /* about me section */
 
-.aboutme {
-    background-color: #e1e1eb;
-    min-height: 500px;
-
-}
-
 .logo-image {
-    width: 46px;
-    height: 46px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
@@ -151,6 +148,7 @@ ul {
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+    #profile p {font-size: 1.7em;}
   }
   
   @media only screen and (min-width: 600px) {
@@ -187,6 +185,6 @@ ul {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container {margin: 0px 150px;}
-    #profile img {width: 70%; margin: 0-15%;}
+    #profile img {width: 50%; margin: 0-15%;}
     #profile p {font-size: 1.2em;}
   }

@@ -142,7 +142,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-
 }
 
 .blog-img {
@@ -207,7 +206,6 @@ ul {
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-    #profile p {font-size: 1.7em;}
     .blog {width: 75%;}
     #resume {padding-bottom: 50px;}
 }

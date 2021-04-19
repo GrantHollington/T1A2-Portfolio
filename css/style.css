@@ -26,13 +26,6 @@ body {
     height: 100vh;
 }
 
-footer
-    width: 100%;
-    bottom: -400px;
-    background-color: #328ba8;
-    padding-top: 1px;
-}
-
 h2 {
     padding: 10px;
 }
@@ -161,8 +154,13 @@ ul {
     justify-content: space-evenly;
 }
 
+#profile {
+    display: flex;
+    padding: 10px;
+    align-items: baseline;
+}
 #profile img {
-    width: 70%;
+    width: 75%;
     margin: 0 25%;
     border-radius: 70%;
 }
@@ -189,6 +187,10 @@ ul {
     padding-bottom: 50px;
 }
 
+#intro {
+    position: fixed;
+    /* left: 50px; */
+}
 
 /* Used the responsive media queries from w3 schools */
 /* responsive media quieries */

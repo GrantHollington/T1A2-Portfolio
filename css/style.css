@@ -75,6 +75,7 @@ li {
 
 li a:hover {
     background-color:#240705;
+    /* changes the colour of the page in the nav bars when hovered */
 }
  nav li {
      display: inline-block;
@@ -98,6 +99,7 @@ ul {
  
 .active {
     background-color: #050526;
+    /* indicates which page the viewer is on in the nav bar */
 }
 
 .row {
@@ -108,8 +110,7 @@ ul {
 }
 
 .footer{
-/* created fixed footer and made inline and stuck it to the bottom using "position and bottom" */
-   
+/* created fixed footer and made inline and stuck it to the bottom using "position and bottom" */ 
     left: 0;
     bottom: 0;
     width: 100%;
@@ -153,6 +154,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-family: 'Playfair Display', serif;
+    /* used flex-box to space blog posts */
 }
 
 .hind {

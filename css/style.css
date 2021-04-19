@@ -41,7 +41,10 @@ h2 {
 
 h6 {
     padding-top: 10px;
+    padding-bottom: 100px;
 }
+/* added padding-bottom to create space to footer */
+
 nav ul {
     list-style-type: none;
     margin: 0;

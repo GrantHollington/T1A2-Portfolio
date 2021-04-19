@@ -186,6 +186,7 @@ ul {
 /* used display: flex; to center resume link */
 #resume {
     display: flex;
+    padding-bottom: 50px;
 }
 
 

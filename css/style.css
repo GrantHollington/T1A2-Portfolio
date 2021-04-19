@@ -104,14 +104,15 @@ ul {
 }
 
 .footer{
-/* created fixed footer and made inline */
+/* created fixed footer and made inline and stuck it to the bottom using "position and bottom" */
    
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     display: inline;
-
+    position: fixed;
+    bottom: 0;
 }
 
 .title{

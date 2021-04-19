@@ -17,7 +17,6 @@ a {
 
 body {
     background-color: #ede3af;
-    /* background-image: url(/img/Beach-with-Wave-736x414.jpeg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,9 +181,13 @@ ul {
 #blog-heading {
     padding: 10px;
 }
-/* about me page */
+/* used display: flex; to center resume link */
+#resume {
+    display: flex;
+}
 
 
+/* Used the responsive media queries from w3 schools */
 /* responsive media quieries */
 
 /* For mobile phones: */

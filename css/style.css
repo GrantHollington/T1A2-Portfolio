@@ -31,8 +31,16 @@ footer {
     width: 100%;
     bottom: -100px;
     background-color: #328ba8;
+    padding-top: 2px;
 }
 
+h2 {
+    padding: 10px;
+}
+
+h6 {
+    padding-top: 10px;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -146,6 +154,12 @@ ul {
     align-self: auto;
 }
 
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 #profile img {
     width: 70%;
     margin: 0 25%;
@@ -164,6 +178,10 @@ ul {
 #aboutme img {
     width: 50%;
 }
+
+#blog-heading {
+    padding: 10px;
+}
 /* about me page */
 
 
@@ -174,7 +192,7 @@ ul {
     width: 100%;
     #profile p {font-size: 1.7em;}
     .blog {width: 75%;}
-  }
+}
   
   @media only screen and (min-width: 600px) {
 /* larger than 601px - 768  px */

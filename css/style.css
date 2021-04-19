@@ -85,6 +85,7 @@ p {
     height: 100%;
     position: relative;
     font-size: 1.2em;
+    font-family: 'Ubuntu Mono', monospace;
     /* word-wrap: break-word; */
 }
 
@@ -152,8 +153,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-family: 'Playfair Display', serif;
 }
 
+.hind {
+    font-family: 'Hind Siliguri', sans-serif;
+}
 #profile {
     display: flex;
     padding: 10px;
@@ -190,6 +195,10 @@ ul {
 #intro {
     position: fixed;
     /* left: 50px; */
+}
+
+#skillsheading {
+    padding-top: 50px;
 }
 
 /* Used the responsive media queries from w3 schools */

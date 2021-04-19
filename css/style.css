@@ -6,7 +6,7 @@
     padding: 0;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -104,14 +104,15 @@ ul {
 }
 
 .footer{
-/* created fixed footer and made menu inline */
-    position: fixed;    
+/* created fixed footer and made inline and stuck it to the bottom using "position and bottom" */
+   
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     display: inline;
-
+    position: fixed;
+    bottom: 0;
 }
 
 .title{
@@ -127,6 +128,22 @@ ul {
 .skills img {
     width: 100px;
     height: auto;
+}
+
+
+.blog {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+.blog-img {
+    align-self: auto;
 }
 
 #profile img {

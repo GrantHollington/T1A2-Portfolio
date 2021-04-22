@@ -126,10 +126,16 @@ ul {
     position: fixed;
 }
 
+/* flex-box to display skills images in a row */
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
 /* equal sizing of skill images */
 .skills img {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 
 /* spacing and postioning of blog posts */

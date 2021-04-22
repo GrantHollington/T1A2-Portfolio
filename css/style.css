@@ -10,12 +10,14 @@
     /* Included a red border to see the box lines */
 }
 
+/* postion and paddding to <a> element */
 a {
     display: block;
     float: right;
     padding: 8px;
 }
 
+/* positioning, size font and background colour to pages  */
 body {
     background-color: #ede3af;
     background-repeat: no-repeat;
@@ -26,16 +28,18 @@ body {
     height: 100vh;
 }
 
+/* added padding to h2 headings to postion relative to paragraphs on blog page */
 h2 {
     padding: 10px;
 }
 
+/* added padding-bottom to create space to footer on blog page*/
 h6 {
     padding-top: 10px;
     padding-bottom: 100px;
 }
-/* added padding-bottom to create space to footer */
 
+/* colour, positioning and style type added to navigation bars on all pages */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -46,22 +50,21 @@ nav ul {
     background-color: #328ba8;
 }
 
-nav li {
-    display: table-cell;
-}
-
+/* Colour and positioning to navbar text  */
 li a {
-    display: block;
     color: #fff;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
+
+/* used flex to position content, in particular the blog posts */
 div{
     display: flex;
     justify-content: center;
 }
 
+/* size and postioning of images */
 img {
     width: 70%;
     height: 100%;
@@ -69,39 +72,43 @@ img {
     margin: 10px; 
 }
 
+/* positioning of specific sections of navbar */
 li {
     border-right: 1px solid;
 }
 
+/* changes the colour of the page in the nav bars when hovered */
 li a:hover {
     background-color:#240705;
-    /* changes the colour of the page in the nav bars when hovered */
 }
+
+/* inline-block to center navigation bar */
  nav li {
      display: inline-block;
  }
 
+ /* size, font and postioning to paragraphs */
 p {
     width: 100%;
     height: 100%;
     position: relative;
     font-size: 1.2em;
     font-family: 'Ubuntu Mono', monospace;
-    /* word-wrap: break-word; */
 }
 
+
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
  
+/* indicates which page the viewer is on in the nav bar */
 .active {
     background-color: #050526;
-    /* indicates which page the viewer is on in the nav bar */
 }
 
+/* Using flex to postion image in index page */
 .row {
     width: 100%;
     display: flex;
@@ -109,8 +116,8 @@ ul {
     flex-wrap: wrap;
 }
 
-.footer{
 /* created fixed footer and made inline and stuck it to the bottom using "position and bottom" */ 
+.footer{
     left: 0;
     bottom: 0;
     width: 100%;
@@ -119,58 +126,51 @@ ul {
     position: fixed;
 }
 
-.title{
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.skills {
-    text-align: center;
-}
-
+/* equal sizing of skill images */
 .skills img {
     width: 100px;
     height: auto;
 }
 
-
+/* spacing and postioning of blog posts */
 .blog {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     align-content: stretch;
 }
 
-.blog-img {
-    align-self: auto;
-}
 
+/* used flex-box to space blog posts as well as font*/
 .articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-family: 'Playfair Display', serif;
-    /* used flex-box to space blog posts */
 }
 
+/* Added font 'hind' to blog paragraphs */
 .hind {
     font-family: 'Hind Siliguri', sans-serif;
 }
+
+/* positioning to profile image and paragraph on index page  */
 #profile {
     display: flex;
     padding: 10px;
     align-items: baseline;
 }
+
+/* size and border shape to image on index page */
 #profile img {
     width: 75%;
     margin: 0 25%;
     border-radius: 70%;
 }
 
+/* font size, colour and poistioning to paragraph on index page */
 #profile p{
     margin: 20px;
     color: #414542;
@@ -180,10 +180,12 @@ ul {
     text-align: center;
 }
 
+/* added with to image on about me page */
 #aboutme img {
     width: 50%;
 }
 
+/* added padding to blog heading page */
 #blog-heading {
     padding: 10px;
 }
@@ -193,11 +195,12 @@ ul {
     padding-bottom: 50px;
 }
 
+/* positioning to paragraph on index page */
 #intro {
     position: fixed;
-    /* left: 50px; */
 }
 
+/* padding to skills heading on resume page */
 #skillsheading {
     padding-top: 50px;
 }

@@ -148,6 +148,11 @@ ul {
     align-content: stretch;
 }
 
+/* adjust size of images in blog page */
+.blog-img{
+    width: auto;
+    height: 300px;
+}
 
 /* used flex-box to space blog posts as well as font*/
 .articles {
